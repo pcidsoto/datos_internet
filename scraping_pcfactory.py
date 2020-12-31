@@ -12,6 +12,7 @@ for elem in lista_producto:
     nombre = elem.find('span', class_='nombre')
     precio = elem.find('span', class_='txt-precio')
     if None in (marca, nombre, precio):
+        print('no hay datos!')
         continue
     print(marca.text.strip())
     print(nombre.text.strip())
