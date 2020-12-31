@@ -2,7 +2,7 @@
 
 para generar un requirements.txt
 
-    pip3 freeze > requirements.txt
+    pip freeze > requirements.txt
 
 para instalar un requirements
 
